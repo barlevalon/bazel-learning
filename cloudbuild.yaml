@@ -2,4 +2,5 @@ steps:
 
 # Bazel test //...
 - name: gcr.io/cloud-builders/bazel
-  args: ['build', '//...']
+  args: ['test', '//...']
+  dir: scala_project
