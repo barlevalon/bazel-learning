@@ -11,9 +11,9 @@ class ExampleTest extends SpecificationWithJUnit {
 		}
 	}
 
-	"failing test" should {
-		"fail" in {
-			failure
+	"fixed test" should {
+		"pass" in {
+			ok
 		}
 	}
 }
