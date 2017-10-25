@@ -10,4 +10,10 @@ class ExampleTest extends SpecificationWithJUnit {
 			example.add(1,1) mustEqual 2
 		}
 	}
+
+	"failing test" should {
+		"fail" in {
+			failure
+		}
+	}
 }
