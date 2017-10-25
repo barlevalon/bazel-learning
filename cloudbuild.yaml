@@ -2,5 +2,4 @@ steps:
 
 # Bazel test //...
 - name: gcr.io/cloud-builders/bazel
-  args: ['test', '//...']
-  dir: workspace
+  args: ['build', '//...']
